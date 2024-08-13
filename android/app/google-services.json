@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425743631402",
+    "project_id": "dr-go-29a4b",
+    "storage_bucket": "dr-go-29a4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425743631402:android:67fce26be07bc4743def53",
+        "android_client_info": {
+          "package_name": "com.AM.dr_go"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVJ64GtofWPkar7SwK9wN-Ur1jTeJKu3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
