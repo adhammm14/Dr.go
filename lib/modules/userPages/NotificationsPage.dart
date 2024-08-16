@@ -80,7 +80,7 @@ class NotificationsPage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text("Appointment Success", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: blackColor, fontSize: 20),),
+                    Text("Appointment Success", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: blackColor, fontSize: 18),),
                     Text("1h", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w500, color: heavyGreyColor, fontSize: 17),),
                   ],
                 ),
@@ -139,7 +139,7 @@ class NotificationsPage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text("Appointment Reschedule", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: blackColor, fontSize: 20),),
+                    Text("Appointment Reschedule", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: blackColor, fontSize: 18),),
                     Text("1h", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w500, color: heavyGreyColor, fontSize: 17),),
                   ],
                 ),
@@ -198,7 +198,7 @@ class NotificationsPage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text("Appointment Cancelled", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: blackColor, fontSize: 20),),
+                    Text("Appointment Cancelled", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: blackColor, fontSize: 18),),
                     Text("1h", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w500, color: heavyGreyColor, fontSize: 17),),
                   ],
                 ),

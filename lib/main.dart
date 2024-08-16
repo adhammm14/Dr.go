@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:dr_go/modules/loginPages/CreateAccountPage.dart';
 import 'package:dr_go/shared/cubit/login_cubit/cubit_observer.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: UserLayout(),
+      home: CreateAccountPage(),
     );
   }
 }

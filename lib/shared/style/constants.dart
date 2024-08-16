@@ -5,3 +5,9 @@ TextStyle centerTitlePage = TextStyle(
   fontWeight: FontWeight.w700,
   fontSize: 20
 );
+
+TextStyle leftTitlePage = TextStyle(
+    fontFamily: "Hoves",
+    fontWeight: FontWeight.w700,
+    fontSize: 28
+);
