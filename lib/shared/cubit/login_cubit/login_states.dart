@@ -20,6 +20,6 @@ class ChangeButtonIconState extends LoginStates{}
 
 class ChangeSchoolIdState extends LoginStates{}
 
-class ChangeGenderState extends LoginStates{}
+class ChangeAgreeState extends LoginStates{}
 
 class UpdateDataSuccessfullyState extends LoginStates{}

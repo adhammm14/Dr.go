@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:page_transition/page_transition.dart';
 
 import '../../shared/style/colors.dart';
+import '../../shared/style/constants.dart';
 import 'NotificationsPage.dart';
 
 class BookingsPage extends StatelessWidget {
@@ -19,7 +20,7 @@ class BookingsPage extends StatelessWidget {
         leadingWidth: 200,
         leading: Padding(
           padding: const EdgeInsets.only(left: 20.0),
-          child: Text("Bookings", style: TextStyle(fontFamily: "Hoves", fontWeight: FontWeight.w700, fontSize: 28),),
+          child: Text("Bookings", style: leftTitlePage,),
         ),
         actions: [
           IconButton(
@@ -75,7 +76,7 @@ class BookingsPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20,),
-            Text("Upcoming", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: heavyGreyColor, fontSize: 20),),
+            Text("Upcoming", style: TextStyle(fontFamily: "Hoves Expanded", fontWeight: FontWeight.w600, color: blackColor, fontSize: 20),),
             SizedBox(height: 20,),
             Container(
               height: 200,
