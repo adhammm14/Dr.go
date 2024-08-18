@@ -1,6 +1,23 @@
+import 'package:dr_go/auth/auth_service.dart';
 import 'package:flutter/material.dart';
 
-class logInScreen extends StatelessWidget {
+class logInScreen extends StatefulWidget {
+  @override
+  State<logInScreen> createState() => _logInScreenState();
+}
+
+class _logInScreenState extends State<logInScreen> {
+  final passwordController = TextEditingController();
+  final auth = AuthService();
+  final emailController = TextEditingController();
+
+  @override
+  void dispose() {
+    super.dispose();
+    emailController.dispose();
+    passwordController.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,7 +89,7 @@ class logInScreen extends StatelessWidget {
               child: Container(
                 width: double.infinity,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: signIn,
                   child: Text(
                     "Sign In",
                     style: TextStyle(color: Colors.white),
@@ -98,5 +115,14 @@ class logInScreen extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  signIn() async {
+    final loginUser =
+        await auth.loginUser(emailController.text, passwordController.text);
+    if (loginUser != null) {
+      print("Login Successfully");
+      // then navigate to the home page
+    }
   }
 }
